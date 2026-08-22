@@ -1,0 +1,39 @@
+{
+  "schema_version": "loc_live_no_official_transcript_inventory.v1",
+  "collection_url": "https://www.loc.gov/collections/charles-s-hamlin-papers/",
+  "collection_items_audited": 204,
+  "accepted_items": 157,
+  "rejected_items": 47,
+  "verified_candidate_pages": 14637,
+  "audit_window_utc": {
+    "first_accepted_item": "2026-08-20T21:49:16Z",
+    "last_accepted_item": "2026-08-20T23:08:18Z"
+  },
+  "source_urls": {
+    "collection": "https://www.loc.gov/collections/charles-s-hamlin-papers/",
+    "item_api_pattern": "https://www.loc.gov/item/{item_id}/?fo=json"
+  },
+  "rejection_reason_counts": {
+    "item_api_error": 45,
+    "online_format_includes_nonimage": 2,
+    "textual_resource": 206,
+    "transcript_field": 210,
+    "transcript_url": 210
+  },
+  "rejection_reason_counts_note": "signal occurrences; multiple fields/resources can produce multiple signals in one rejected item",
+  "rejected_item_category_counts": {
+    "item_api_error": 45,
+    "online_format_includes_nonimage": 2,
+    "textual_resource": 2,
+    "transcript_field": 2,
+    "transcript_url": 2
+  },
+  "verification_policy": {
+    "scope": "entire LOC item",
+    "source": "live loc.gov item JSON API",
+    "fail_closed": true,
+    "requires_image_only_online_format": true,
+    "rejects_fulltext_transcript_word_coordinate_and_text_service_signals": true
+  },
+  "predictions_are_unreviewed_and_not_ground_truth": true
+}

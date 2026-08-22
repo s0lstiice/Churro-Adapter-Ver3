@@ -1,0 +1,50 @@
+{
+  "schema_version": "churro_loc_baseline_comparison.v1",
+  "evaluation_set": "aligned 100-page development-set family",
+  "normalization": "case- and punctuation-insensitive",
+  "versions": {
+    "upstream_churro": {
+      "cer": 0.4045,
+      "wer": 0.499,
+      "precision_note": "legacy measurement reported to two decimal percentage points"
+    },
+    "epoch19_adapter": {
+      "cer": 0.3319,
+      "wer": 0.4173,
+      "precision_note": "legacy measurement reported to two decimal percentage points"
+    },
+    "current_faithful": {
+      "cer": 0.3240939737433529,
+      "wer": 0.4113656210116209,
+      "summary": "aligned100_faithful_summary.json"
+    },
+    "current_grounded_faithful": {
+      "cer": 0.3004163238237931,
+      "wer": 0.38657889433734133,
+      "summary": "aligned100_grounded_summary.json"
+    }
+  },
+  "current_grounded_vs_upstream": {
+    "cer_absolute_percentage_points": 10.4083676176207,
+    "cer_relative_error_reduction": 0.257314403402242,
+    "wer_absolute_percentage_points": 11.2421105662659,
+    "wer_relative_error_reduction": 0.225292796919156
+  },
+  "current_grounded_vs_epoch19": {
+    "cer_absolute_percentage_points": 3.14836761762069,
+    "cer_relative_error_reduction": 0.0948589218927596,
+    "wer_absolute_percentage_points": 3.07211056626587,
+    "wer_relative_error_reduction": 0.0736187530856906
+  },
+  "current_grounded_vs_current_faithful": {
+    "cer_absolute_percentage_points": 2.36776499195598,
+    "cer_relative_error_reduction": 0.0730579765062523,
+    "wer_absolute_percentage_points": 2.47867266742796,
+    "wer_relative_error_reduction": 0.060254735467015
+  },
+  "limitations": [
+    "development measurements rather than an independent blind benchmark",
+    "some aligned100 page-reference boundaries remain under audit",
+    "legacy baselines are rounded more coarsely than current summaries"
+  ]
+}

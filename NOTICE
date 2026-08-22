@@ -1,0 +1,28 @@
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT,
+Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+Improved using Qwen.
+
+This repository contains an independently trained PEFT/LoRA adapter for
+stanford-oval/churro-3B. It does not contain CHURRO or Qwen base-model weights
+and is not an official Stanford OVAL, Alibaba Cloud/Qwen, or Library of
+Congress release.
+
+Training and development evaluation used scans and official page transcripts
+from the Abraham Lincoln Papers. Credit: Library of Congress, Manuscript
+Division, Abraham Lincoln Papers.
+
+Rights and access:
+https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/rights-and-access/
+
+The bundled inference inventory references Charles S. Hamlin Papers images.
+Credit: Library of Congress, Manuscript Division, Charles S. Hamlin Papers.
+
+Collection:
+https://www.loc.gov/collections/charles-s-hamlin-papers/
+
+Rights and access:
+https://www.loc.gov/collections/charles-s-hamlin-papers/about-this-collection/rights-and-access/
+
+Generated OCR text is unreviewed model output. It is not an official LOC
+transcript, reference label, or statement by the Library of Congress.
